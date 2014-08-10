@@ -1,0 +1,10 @@
+{
+  "booleanMap": { "on": true, "off": false },
+  "intMap": { "one": 1, "two": 2 },
+  "longMap": { "one": 1, "two": 2 },
+  "floatMap": { "one": 1, "two": 2 },
+  "doubleMap": { "one": 1, "two": 2 },
+  "stringMap": { "one": "uno", "two": "dos" },
+  "enumMap": { "H": "Hearts", "D": "Diamonds" },
+  "nestedStringMap": { "one": { "es": "uno", "fr": "un" }, "two": { "es": "does", "fr": "deux" } }
+}

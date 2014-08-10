@@ -1,0 +1,9 @@
+{
+  "booleanValue": false,
+  "intValue": -2147483648,
+  "longValue": -9223372036854775808,
+  "floatValue": 1.4E-45,
+  "doubleValue": 4.9E-324,
+  "stringValue": "",
+  "enumValue": "Diamonds"
+}

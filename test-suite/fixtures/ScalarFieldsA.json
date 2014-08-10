@@ -1,0 +1,9 @@
+{
+  "booleanValue": true,
+  "intValue": 1,
+  "longValue": 2,
+  "floatValue": 1.5,
+  "doubleValue": 2.5,
+  "stringValue": "Lorem Ipsum",
+  "enumValue": "Diamonds"
+}

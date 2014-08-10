@@ -1,0 +1,30 @@
+{
+  "structValue": {
+    "name": "root",
+    "children": [
+      {
+        "name": "node1",
+        "children": [
+          { "name": "node1-1", "children": [] },
+          { "name": "node1-2", "children": [] }
+        ]
+      },
+      {
+        "name": "node2",
+        "children": [
+          { "name": "node2-1", "children": [] },
+          { "name": "node2-2", "children": [] }
+        ]
+      }
+    ]
+  },
+  "optionalStructValue": { "name": "root", "children": [] },
+  "structList": [
+    { "name": "node1", "children": [] },
+    { "name": "node2", "children": [] }
+  ],
+  "structMap": {
+    "node1": { "name": "node1", "children": [] },
+    "node2": { "name": "node2", "children": [] }
+  }
+}

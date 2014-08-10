@@ -1,0 +1,74 @@
+module io.encoded.jersik.testsuite
+
+service TestService {
+  testEmpty: Empty -> Empty
+  testScalarFieldsA: ScalarFields -> ScalarFields
+  testScalarFieldsB: ScalarFields -> ScalarFields
+  testScalarFieldsC: ScalarFields -> ScalarFields
+  testOptionalFieldsA: OptionalFields -> OptionalFields
+  testOptionalFieldsB: OptionalFields -> OptionalFields
+  testListFieldsA: ListFields -> ListFields
+  testListFieldsB: ListFields -> ListFields
+  testMapFieldsA: MapFields -> MapFields
+  testMapFieldsB: MapFields -> MapFields
+  testStructFieldsA: StructFields -> StructFields
+  testStructFieldsB: StructFields -> StructFields
+}
+
+enum Suit { Hearts Diamonds Spades Clubs }
+
+struct Empty { }
+
+struct ScalarFields {
+  booleanValue: Boolean
+  intValue: Int
+  longValue: Long
+  floatValue: Float
+  doubleValue: Double
+  stringValue: String
+  enumValue: Suit 
+}
+
+struct OptionalFields {
+  booleanValue: Optional<Boolean>
+  intValue: Optional<Int>
+  longValue: Optional<Long>
+  floatValue: Optional<Float>
+  doubleValue: Optional<Double>
+  stringValue: Optional<String>
+  enumValue: Optional<Suit>
+}
+
+struct ListFields {
+  booleanList: List<Boolean>
+  intList: List<Int>
+  longList: List<Long>
+  floatList: List<Float>
+  doubleList: List<Double>
+  stringList: List<String>
+  enumList: List<Suit>
+  nestedStringList: List<List<String>>
+}
+
+struct MapFields {
+  booleanMap: Map<String, Boolean>
+  intMap: Map<String, Int>
+  longMap: Map<String, Long>
+  floatMap: Map<String, Float>
+  doubleMap: Map<String, Double>
+  stringMap: Map<String, String>
+  enumMap: Map<String, Suit>
+  nestedStringMap: Map<String, Map<String, String>>
+}
+
+struct TreeNode {
+  name: String
+  children: List<TreeNode>
+}
+
+struct StructFields {
+  structValue: TreeNode
+  optionalStructValue: Optional<TreeNode>
+  structList: List<TreeNode>
+  structMap: Map<String, TreeNode>
+}
