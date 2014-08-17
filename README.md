@@ -10,5 +10,6 @@ The typical usage scenario is
 * Generate code for your server
 * Generate code for your client(s)
 
-Jersik is still in early stage of development and not really in a usable state
-yet.
+Jersik is still in early stage of development and can currently generate only Scala code.
+
+[![Build Status](https://api.travis-ci.org/mirkonasato/jersik.svg?branch=master)](https://travis-ci.org/mirkonasato/jersik)
