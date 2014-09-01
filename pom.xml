@@ -16,6 +16,12 @@
 
   <modules>
     <module>jersik-codegen</module>
+    <module>java/jersik-java-codegen</module>
+    <module>java/jersik-java-maven-plugin</module>
+    <module>java/jersik-java-runtime</module>
+    <module>java/jersik-java-runtime-client</module>
+    <module>java/jersik-java-runtime-servlet</module>
+    <module>java/jersik-java-testclient</module>
     <module>scala/jersik-scala-codegen</module>
     <module>scala/jersik-scala-maven-plugin</module>
     <module>scala/jersik-scala-runtime</module>
